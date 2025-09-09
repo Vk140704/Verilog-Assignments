@@ -1,20 +1,13 @@
-// /*10.Part Select Operation
-// Extract lower nibble from reg [7:0] bus using bus[3:0].*/
-// module part_select
-//   reg [7:0]bus;
-//   initial begin
-//     data= 8'b00101010;
-//     assign d= bus[3:0];
-//   end 
-
-// endmodule 
-
-reg [7:0]bus;
-int a;
+module part_sel;
+reg[7:0]bus;
+reg[3:0]nibble;
 initial begin
-  if (bus[i]>4);
-  a=0;
-  else 
-    a=a+1;
-  
-end
+bus=8'b10101111;
+$display("Time=%0t : bus=%b",$time,bus);
+nibble=bus[3:0];
+$display("Time=%0t : lower_nibble=%b",$time,nibble);
+nibble=bus[7:4];
+$display("Time=%0t : upper_nibble=%b",$time,nibble);
+$finish;
+end 
+endmodule
