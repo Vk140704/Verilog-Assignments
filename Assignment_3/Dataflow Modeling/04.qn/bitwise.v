@@ -1,3 +1,5 @@
+/*4. Implement the following bitwise operations in a module and display the result:
+• ~x, x & y, x | y, x ^ y, x ^~ y*/
 module bitwise_op(x,y,a,b,c,d,e);
 input x,y;
 output a,b,c,d,e;
