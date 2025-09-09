@@ -1,6 +1,3 @@
-/*8. Create a module using concatenation operator:
-assign y = {a, b[0], c[1]};*/
-
 module tb_concat;
 reg a;
 reg [1:0]b,c;
