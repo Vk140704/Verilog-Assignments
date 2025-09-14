@@ -1,4 +1,4 @@
-//20. Show how race condition is resolved using non-blocking assignments.
+//26. Design a counter using a repeat loop and simulate 8 cycles.
 module square;
 reg clk;;
 initial begin
