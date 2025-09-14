@@ -1,6 +1,6 @@
 //24. Simulate two flip-flops exchanging values with blocking and non-blocking assignments.
 
-module two_ff_nonblocking;
+module two_ff_nonblocking; //same question with  nb
   reg clk;
   reg q1, q2;
 
