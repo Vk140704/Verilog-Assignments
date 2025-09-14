@@ -1,4 +1,4 @@
-//19. Demonstrate a race condition using two always blocks assigning to the same variable.
+//25. Write a forever loop to generate a square wave on a signal.
 module square;
 reg clk;;
 initial begin
